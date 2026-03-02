@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "name": "Hu Tao",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 5,
+    "role": "DPS",
+    "description": "The 77th Director of the Wangsheng Funeral Parlor, Hu Tao is a spirited young woman who brings both chaos and warmth wherever she goes. She harnesses the power of her Pyro Vision through her polearm, dealing devastating damage that scales with her low HP, making her one of the most feared DPS characters in Teyvat.",
+    "image": "https://genshin.jmp.blue/characters/hu-tao/portrait"
+  },
+  {
+    "id": 2,
+    "name": "Venti",
+    "element": "Anemo",
+    "weapon": "Bow",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "role": "Support",
+    "description": "The bard who wanders Mondstadt with a lyre and a bottomless wine jug, Venti is secretly Barbatos — the Anemo Archon himself. His Elemental Burst pulls enemies into a vortex while triggering powerful elemental reactions, making him one of the best crowd-control supports in the game.",
+    "image": "https://genshin.jmp.blue/characters/venti/portrait"
+  },
+  {
+    "id": 3,
+    "name": "Zhongli",
+    "element": "Geo",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 5,
+    "role": "Support",
+    "description": "The consultant of Wangsheng Funeral Parlor, Zhongli is the former Geo Archon Morax who laid down his Gnosis to live among mortals. His stone pillars and impenetrable Jade Shield provide the strongest shielding in the game, while his Elemental Burst can petrify entire groups of enemies.",
+    "image": "https://genshin.jmp.blue/characters/zhongli/portrait"
+  },
+  {
+    "id": 4,
+    "name": "Raiden Shogun",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "region": "Inazuma",
+    "rarity": 5,
+    "role": "Sub-DPS",
+    "description": "The Electro Archon and eternal ruler of Inazuma, the Raiden Shogun is a masterpiece of divine engineering. She accumulates Resolve from her party's Elemental Bursts and unleashes it in a powerful musou no hitotachi, simultaneously restoring energy to all allies and dealing massive Electro damage.",
+    "image": "https://genshin.jmp.blue/characters/raiden/portrait"
+  },
+  {
+    "id": 5,
+    "name": "Kaedehara Kazuha",
+    "element": "Anemo",
+    "weapon": "Sword",
+    "region": "Inazuma",
+    "rarity": 5,
+    "role": "Support",
+    "description": "A wandering samurai of the once-glorious Kaedehara Clan, Kazuha carries guilt and grace in equal measure. His Anemo abilities swirl enemies and elements together masterfully, and his passive talent boosts team Elemental Damage based on his Elemental Mastery, making him an exceptional team buffer.",
+    "image": "https://genshin.jmp.blue/characters/kazuha/portrait"
+  },
+  {
+    "id": 6,
+    "name": "Sangonomiya Kokomi",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "region": "Inazuma",
+    "rarity": 5,
+    "role": "Healer",
+    "description": "The Divine Priestess of Watatsumi Island, Kokomi leads her people with both wisdom and a self-deprecating wit. Her Bake-Kurage jellyfish continuously heals allies on the field, and her Elemental Burst supercharges her Normal Attacks with powerful Hydro damage while providing massive healing.",
+    "image": "https://genshin.jmp.blue/characters/kokomi/portrait"
+  },
+  {
+    "id": 7,
+    "name": "Nahida",
+    "element": "Dendro",
+    "weapon": "Catalyst",
+    "region": "Sumeru",
+    "rarity": 5,
+    "role": "Sub-DPS",
+    "description": "Lesser Lord Kusanali, the Dendro Archon of Sumeru, spent five hundred years confined within a temple before finally emerging. Despite her young appearance she possesses extraordinary wisdom. She excels at applying Dendro to enable Bloom, Quicken, and Burning reactions while dealing impressive off-field damage.",
+    "image": "https://genshin.jmp.blue/characters/nahida/portrait"
+  },
+  {
+    "id": 8,
+    "name": "Furina",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "region": "Fontaine",
+    "rarity": 5,
+    "role": "Support",
+    "description": "The flamboyant Hydro Archon of Fontaine, Furina presided over the Court of Fontaine for five centuries hiding a monumental secret. Her Salon Solitaire summons three salonniere members who drain HP from nearby characters while dealing AoE Hydro damage, and her Elemental Burst provides a powerful team-wide damage buff.",
+    "image": "https://genshin.jmp.blue/characters/furina/portrait"
+  },
+  {
+    "id": 9,
+    "name": "Fischl",
+    "element": "Electro",
+    "weapon": "Bow",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "role": "Sub-DPS",
+    "description": "An investigator for Mondstadt's Adventurers' Guild who speaks in archaic, theatrical language, Fischl summons her raven familiar Oz to deal persistent off-field Electro damage. She is one of the most versatile and widely-used four-star characters, fitting into virtually any team that benefits from Electro application.",
+    "image": "https://genshin.jmp.blue/characters/fischl/portrait"
+  },
+  {
+    "id": 10,
+    "name": "Xingqiu",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "region": "Liyue",
+    "rarity": 4,
+    "role": "Sub-DPS",
+    "description": "The second son of the Feiyun Commerce Guild, Xingqiu spends his free time reading novels and practicing swordsmanship. His Elemental Burst surrounds the active character with rain swords that deal Hydro damage on Normal Attacks, making him the cornerstone of Vaporize and Freeze team compositions.",
+    "image": "https://genshin.jmp.blue/characters/xingqiu/portrait"
+  },
+  {
+    "id": 11,
+    "name": "Bennett",
+    "element": "Pyro",
+    "weapon": "Sword",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "role": "Healer",
+    "description": "Mondstadt's most unlucky adventurer who somehow always stays cheerful, Bennett is considered the best four-star character in the game. His Elemental Burst creates a Fantastic Voyage field that heals party members above 70% HP and provides a massive ATK bonus, fitting into almost every serious team composition.",
+    "image": "https://genshin.jmp.blue/characters/bennett/portrait"
+  },
+  {
+    "id": 12,
+    "name": "Sucrose",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "role": "Support",
+    "description": "An alchemist assistant working at Knights of Favonius who is obsessed with bio-alchemy and rarely looks up from her experiments. Sucrose shares a portion of her Elemental Mastery with the party, and her Anemo abilities can gather enemies and trigger powerful elemental swirl reactions for strong crowd control.",
+    "image": "https://genshin.jmp.blue/characters/sucrose/portrait"
+  },
+  {
+    "id": 13,
+    "name": "Xiangling",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 4,
+    "role": "Sub-DPS",
+    "description": "The head chef of Liyue Harbor's Wanmin Restaurant, Xiangling has an insatiable curiosity for exotic ingredients. Her panda companion Guoba breathes fire on enemies, and her Pyronado Elemental Burst spins around the active character dealing persistent AoE Pyro damage, making her a powerful off-field DPS.",
+    "image": "https://genshin.jmp.blue/characters/xiangling/portrait"
+  },
+  {
+    "id": 14,
+    "name": "Noelle",
+    "element": "Geo",
+    "weapon": "Claymore",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "role": "DPS",
+    "description": "A maid of the Knights of Favonius who dreams of officially joining the Knights, Noelle balances incredible strength with meticulous domestic skills. She provides self-healing through Normal Attacks when her shield is active, and her Elemental Burst converts her Normal Attack damage to AoE Geo damage with a powerful stat boost.",
+    "image": "https://genshin.jmp.blue/characters/noelle/portrait"
+  },
+  {
+    "id": 15,
+    "name": "Chongyun",
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "region": "Liyue",
+    "rarity": 4,
+    "role": "Sub-DPS",
+    "description": "A young exorcist from Liyue with a pure Yang spirit so strong that ghosts flee at his presence. His Elemental Skill creates an icy field that converts the Normal Attacks of sword, polearm, and claymore users to Cryo damage, enabling powerful Superconduct and Freeze team setups across the party.",
+    "image": "https://genshin.jmp.blue/characters/chongyun/portrait"
+  },
+  {
+    "id": 16,
+    "name": "Ganyu",
+    "element": "Cryo",
+    "weapon": "Bow",
+    "region": "Liyue",
+    "rarity": 5,
+    "role": "DPS",
+    "description": "The secretary of the Liyue Qixing and a half-qilin adeptus, Ganyu has served Liyue for over three thousand years. Her charged attacks fire Frostflake Arrows that explode in a bloom of Cryo damage, and she can unleash a massive Celestial Shower of ice shards, making her one of the highest-damage characters in the game.",
+    "image": "https://genshin.jmp.blue/characters/ganyu/portrait"
+  },
+  {
+    "id": 17,
+    "name": "Keqing",
+    "element": "Electro",
+    "weapon": "Sword",
+    "region": "Liyue",
+    "rarity": 5,
+    "role": "DPS",
+    "description": "The Yuheng of the Liyue Qixing, Keqing is an ambitious and driven young woman who distrusts the guidance of the adepti and prefers to rely on human effort and ingenuity. She teleports across the battlefield with lightning speed, slashing enemies with rapid Electro-infused sword strikes and stylish aerial attacks.",
+    "image": "https://genshin.jmp.blue/characters/keqing/portrait"
+  }
+]
