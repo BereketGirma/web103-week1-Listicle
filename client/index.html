@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genshin Impact Character Guide</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">⚔️ Genshin Impact Character Guide</h1>
+      <p class="site-subtitle">Explore characters, elements, and build strategies from across Teyvat</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="filters-section" aria-label="Search and filter characters">
+      <h2 class="filters-heading">Search &amp; Filter</h2>
+
+      <div class="search-bar-wrapper">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search by character name..."
+          aria-label="Search characters by name"
+        />
+      </div>
+
+      <div class="filter-grid">
+
+        <label for="filter-element">
+          Element
+          <select id="filter-element" aria-label="Filter by element">
+            <option value="">All Elements</option>
+            <option value="Pyro">🔥 Pyro</option>
+            <option value="Hydro">💧 Hydro</option>
+            <option value="Cryo">❄️ Cryo</option>
+            <option value="Electro">⚡ Electro</option>
+            <option value="Anemo">🌪️ Anemo</option>
+            <option value="Geo">⛰️ Geo</option>
+            <option value="Dendro">🌿 Dendro</option>
+          </select>
+        </label>
+
+        <label for="filter-weapon">
+          Weapon
+          <select id="filter-weapon" aria-label="Filter by weapon type">
+            <option value="">All Weapons</option>
+            <option value="Sword">⚔️ Sword</option>
+            <option value="Claymore">🗡️ Claymore</option>
+            <option value="Bow">🏹 Bow</option>
+            <option value="Polearm">🔱 Polearm</option>
+            <option value="Catalyst">📖 Catalyst</option>
+          </select>
+        </label>
+
+        <label for="filter-rarity">
+          Rarity
+          <select id="filter-rarity" aria-label="Filter by rarity">
+            <option value="">All Rarities</option>
+            <option value="5">★★★★★ 5-Star</option>
+            <option value="4">★★★★ 4-Star</option>
+          </select>
+        </label>
+
+        <label for="filter-region">
+          Region
+          <select id="filter-region" aria-label="Filter by region">
+            <option value="">All Regions</option>
+            <option value="Mondstadt">🍃 Mondstadt</option>
+            <option value="Liyue">⛏️ Liyue</option>
+            <option value="Inazuma">⚡ Inazuma</option>
+            <option value="Sumeru">🌴 Sumeru</option>
+            <option value="Fontaine">🌊 Fontaine</option>
+          </select>
+        </label>
+
+      </div>
+
+      <p id="results-count" class="results-count" aria-live="polite"></p>
+
+    </section>
+
+    <section id="characters-section" aria-label="Character cards">
+
+      <div id="loading-indicator" class="loading-indicator" aria-busy="true">
+        <p>Loading characters…</p>
+      </div>
+
+      <div id="error-message" class="error-message hidden" role="alert">
+        <p>⚠️ Failed to load character data. Is the server running?</p>
+      </div>
+
+      <div id="characters-grid" class="characters-grid"></div>
+
+      <div id="no-results" class="no-results hidden">
+        <p>No characters match your current filters. Try adjusting your search.</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Genshin Impact Character Guide &mdash; CodePath Web 103 Project</p>
+      <p class="footer-note">Character data and lore belong to HoYoverse. This is a fan-made educational project.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

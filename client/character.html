@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Page title is updated dynamically by character.js -->
+  <title>Character Details — Genshin Impact Guide</title>
+
+  <!-- PicoCSS via CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
+
+  <!-- Shared custom styles (same file used by index.html) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ======================================================
+       HEADER
+       ====================================================== -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">⚔️ Genshin Impact Character Guide</h1>
+    </div>
+  </header>
+
+  <!-- ======================================================
+       MAIN CONTENT
+       ====================================================== -->
+  <main class="container">
+
+    <!-- Back button — always returns to the character list -->
+    <a href="index.html" class="back-link">← Back to All Characters</a>
+
+    <!-- Loading state -->
+    <div id="loading-indicator" class="loading-indicator" aria-busy="true">
+      <p>Loading character…</p>
+    </div>
+
+    <!-- Error state (bad ID, network failure, etc.) -->
+    <div id="error-message" class="error-message hidden" role="alert">
+      <p>⚠️ Character not found. <a href="index.html">Return to the list</a>.</p>
+    </div>
+
+    <!-- Detail view — filled dynamically by character.js -->
+    <div id="detail-view" class="hidden"></div>
+
+  </main>
+
+  <!-- ======================================================
+       FOOTER
+       ====================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Genshin Impact Character Guide &mdash; CodePath Web 103 Project</p>
+      <p class="footer-note">Character data and lore belong to HoYoverse. This is a fan-made educational project.</p>
+    </div>
+  </footer>
+
+  <!-- character.js reads the ?id= query param and renders the detail view -->
+  <script src="character.js"></script>
+
+</body>
+</html>
